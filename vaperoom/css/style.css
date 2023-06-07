@@ -1,0 +1,62 @@
+body {
+  padding: 50px;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-group {
+  margin-bottom: 30px;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container span {
+  background-color: gold;
+  color: white;
+  padding: 15px;
+  margin: 10pxpx;
+  border-radius: 8px;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.container p {
+  margin: 20px;
+}
+.container .btn {
+  margin-top: -30px;
+  width: 150px;
+  background-color: gold;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+.container .btn:hover {
+  margin-top: -30px;
+  width: 200px;
+  background-color: darkorange;
+  font-weight: 500;
+  transition: 1s;
+  color: white;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
